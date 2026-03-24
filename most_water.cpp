@@ -1,6 +1,7 @@
 class Solution {
 public:
     int maxArea(vector<int>& height) {
+        //two pointer approach
         int left = 0;
         int right = height.size() - 1;
         int maxi = 0;
